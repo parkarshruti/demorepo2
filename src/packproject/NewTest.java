@@ -21,6 +21,16 @@ public class NewTest
             
 	  
   }
+  @Test
+  public void f3() 
+  {
+	        String expected= "Google1";
+	 
+            String actual= driver.getTitle();
+            Assert.assertEquals(actual, expected);
+            
+	  
+  }
   @BeforeMethod
   public void f1() 
   {
